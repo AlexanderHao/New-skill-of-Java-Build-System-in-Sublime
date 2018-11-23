@@ -1,0 +1,11 @@
+MyJavaC.sublime-build
+
+//在build system中建立系统运行环境
+
+{
+    "cmd": ["javac", "$file_name", "&&", "java", "$file_base_name"],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "path": "C:\\Program Files\\Java\\jdk1.7.0_13\\bin\\",
+    "selector": "source.java",
+    "shell": true
+}
